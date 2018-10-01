@@ -15,10 +15,11 @@ const light = (input) => {
   const {
     THREE,
     scene,
-    color = 0xffffff,
     position = [1, 250, 1],
     name = 'main-light'
   } = input;
+
+  let color = input.color || 0xffffff;
 
   const mainLight = new THREE.PointLight(color);
   mainLight.name = name;

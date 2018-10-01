@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+- Fix unit tests.
+
+## 1.0.2
+- Add input color validation and hexStringToInt functionality
+
 ## 1.0.1
 - Add Github boilerplate documents.
 - Add Travis CLI and build badge.
